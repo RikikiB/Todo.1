@@ -7,7 +7,8 @@ class todo:
         self.root.title('Kiki\'s Ta\'doo\'s') 
         self.root.geometry('575x400+200+100')
         
-        self.lbl = Label(self.root, text= 'Kiki\'s Ta\'doo\'s', font= 'calabri, 30 bold', fg= 'red', width=15,bd=10, bg='black')
+        self.lbl = Label(self.root, text= 'Kiki\'s Ta\'doo\'s', 
+                         font= 'calabri, 30 bold', fg= 'red', width=15,bd=10, bg='black')
         self.lbl.pack(side= 'top', fill= BOTH)
         
         

@@ -11,6 +11,8 @@ class todo:
         self.lbl.pack(side= 'top', fill= BOTH)
         
         
+        self.lbl2 = Label(self.root, text= 'Kiki\'s Ta\'doo\'s', font= 'calabri, 30 bold', fg= 'red', width=15,bd=10, bg='black')
+        self.lbl.pack(side= 'top', fill= BOTH)
         
                                
 def main():

@@ -4,13 +4,14 @@ from tkinter import ttk
 class todo:
     def __init__(self, root):
         self.root = root
-        self.root.title('Kiki\'s Ta\'doo\'s') 
+        self.root.title('Kiki\'s-Tadoo\'s') 
         self.root.geometry('575x400+200+100')
         
-        self.lbl = Label(self.root, text= 'Kiki\'s Ta\'doo\'s', font= 'calabri, 30 bold', fg= 'red', width=15,bd=10, bg='black')
-        self.lbl.pack(side= 'top', fill= BOTH)
+        self.label = Label(self.root, text= 'Kiki\'s Tadoo\'s', font= 'calabri, 20 bold', fg= 'red', width=15,bd=10, bg='black')
+        self.label.pack(side= 'top', fill= BOTH)
         
         
+        self.label_2
         
                                
 def main():
